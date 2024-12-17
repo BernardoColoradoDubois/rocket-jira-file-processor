@@ -3,8 +3,7 @@ from src.lib.process import Process, ProcessHandler
 class Project(Process):
   name = 'project'
   
-  
-  
+
 class ProjectHandler(ProcessHandler):
   name = 'project'
   
