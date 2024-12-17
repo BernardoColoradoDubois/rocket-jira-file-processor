@@ -1,0 +1,7 @@
+venv
+python
+data
+python.zip
+lambda.zip
+.env
+**/__pycache__/
