@@ -4,7 +4,7 @@ update-lambda:
 	rm lambda.zip;\
 	zip lambda.zip lambda_function.py;\
 	zip -r lambda.zip src;\
-	aws lambda update-function-code --function-name ${AWS_LAMBDA_CONFIG_NAME} --zip-file fileb://lambda.zip --region ${AWS_LAMBDA_CONFIG_REGION} --profile ${AWS_CONFIG_PROFILE};\
+	aws lambda update-function-code --function-name ${AWS_LAMBDA_CONFIG_NAME} --zip-file fileb://lambda.zip --region ${AWS_LAMBDA_CONFIG_REGION} --profile ${AWS_CONFIG_PROFILE}
 
 update-layer:
 	rm -r ./python;\
