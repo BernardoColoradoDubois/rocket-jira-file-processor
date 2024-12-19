@@ -1,11 +1,15 @@
 import json
 from src.lib.process import ProcessBus
-from src.jira.issues import IssueHandler
+from src.jira.issues import IssuesHandler,Issues
+from src.jira.projects import ProjectsHandler,Projects
+from src.jira.users import UsersHandler,Users
 
 def lambda_handler(event, context):
   
   bus = ProcessBus()
-  bus.subscribe(IssueHandler())
+  bus.subscribe( IssuesHandler() )
+  bus.subscribe( ProjectsHandler() )
+  bus.subscribe( UsersHandler() )
           
   for record in event['Records']: 
 
