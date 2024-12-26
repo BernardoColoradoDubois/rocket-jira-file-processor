@@ -4,7 +4,6 @@ class Issues(Process):
   _name = 'issues'
 
 
-
 class IssuesHandler(ProcessHandler):
   _name = 'issues'
   
