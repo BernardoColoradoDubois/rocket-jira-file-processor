@@ -1,12 +1,12 @@
 from src.lib.process import Process, ProcessHandler
 
 class Issues(Process):
-  name = 'issues'
+  _name = 'issues'
 
 
 
 class IssuesHandler(ProcessHandler):
-  name = 'issues'
+  _name = 'issues'
   
   def __init__(self):
     pass
