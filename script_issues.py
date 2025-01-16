@@ -15,9 +15,7 @@ for line in file:
   
   print(cleaned_data)
   table.append(cleaned_data)
-  
 
-  
 file.close()
 
 df = pd.DataFrame(table)
