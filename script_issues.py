@@ -2,7 +2,7 @@ import json
 import pandas as pd
 from src.lib.parsers.issues import issue_parser
 
-file = open('./files/issues/issues_sample', 'r')
+file = open('./files/issues/2024_11_15_1731635738755_202411320', 'r')
 
 table = []
 
