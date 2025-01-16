@@ -20,4 +20,6 @@ file.close()
 
 df = pd.DataFrame.from_dict(table)
 
+print(df.dtypes)
+
 df.to_csv('./csv/issues_sample.csv', index=False)

@@ -11,8 +11,9 @@ class Users(Process):
 class UsersHandler(ProcessHandler):
   _name = 'users'
   
-  def __init__(self):
-    pass
+  def __init__(self,s3_client,postgres_connection):
+    self.s3 = s3_client
+    self.postgres_connection = postgres_connection
   
   def execute(self,process:Process)->None:
     

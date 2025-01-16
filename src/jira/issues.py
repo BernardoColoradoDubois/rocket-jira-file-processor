@@ -12,8 +12,9 @@ class Issues(Process):
 class IssuesHandler(ProcessHandler):
   _name = 'issues'
   
-  def __init__(self):
-    pass
+  def __init__(self,s3_client,postgres_connection):
+    self.s3 = s3_client
+    self.postgres_connection = postgres_connection
   
   def execute(self,process:Process)->None:
     # Configura el cliente de S3
@@ -37,4 +38,4 @@ class IssuesHandler(ProcessHandler):
       
     df = pd.DataFrame.from_dict(table)
     
-    print(df.head())
+    self.postgres_connection.load_df(table_schema='rocket',table_name='jira_issues',df=df)
