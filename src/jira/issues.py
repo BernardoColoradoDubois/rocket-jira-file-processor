@@ -1,8 +1,9 @@
-from src.lib.process import Process, ProcessHandler
-from src.lib.parsers.issues import issue_parser
-import boto3
 import json
 import pandas as pd
+import boto3
+from src.lib.process import Process, ProcessHandler
+from src.lib.parsers.issues import issue_parser
+
 
 class Issues(Process):
   _name = 'issues'
@@ -34,6 +35,6 @@ class IssuesHandler(ProcessHandler):
       parsed_data = issue_parser(data)
       table.append(parsed_data)
       
-    df = pd.DataFrame(table)
+    df = pd.DataFrame.from_dict(table)
     
     print(df.head())

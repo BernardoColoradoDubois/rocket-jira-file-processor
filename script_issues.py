@@ -18,6 +18,6 @@ for line in file:
 
 file.close()
 
-df = pd.DataFrame(table)
+df = pd.DataFrame.from_dict(table)
 
 df.to_csv('./csv/issues_sample.csv', index=False)
