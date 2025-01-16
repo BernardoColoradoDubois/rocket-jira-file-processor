@@ -1,3 +1,5 @@
 pandas
 boto3
 s3fs
+SQLAlchemy
+psycopg2-binary

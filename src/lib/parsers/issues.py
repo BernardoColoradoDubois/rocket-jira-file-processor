@@ -1,5 +1,3 @@
-
-
 def issue_parser(data:dict)->dict:
   
   if 'assignee' not in data['_airbyte_data']['fields'].keys():
