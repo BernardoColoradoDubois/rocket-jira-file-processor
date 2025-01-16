@@ -36,4 +36,4 @@ class IssuesHandler(ProcessHandler):
       
     df = pd.DataFrame(table)
     
-    df.to_csv('issues.csv', index=False)
+    print(df.head())

@@ -19,4 +19,20 @@ def lambda_handler(event, context):
     # obtenemos nombre del archivo
     file_key = record['s3']['object']['key'] 
     
+    #obtenemos la carpeta de origen
+    folder = file_key.split('/')[0]
+    
+    
+    if folder == 'issues':
+      bus.dispatch(process=Issues(bucket_name=bucket_name, file_key=file_key) )
+      
+    elif folder == 'projects':
+      bus.dispatch(process=Projects(bucket_name=bucket_name, file_key=file_key) )
+      
+    elif folder == 'users':
+      bus.dispatch(process=Users(bucket_name=bucket_name, file_key=file_key) )
+      
+    else:
+      pass
+    
     

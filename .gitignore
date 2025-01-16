@@ -6,3 +6,4 @@ lambda.zip
 .env
 **/__pycache__/
 files
+csv
