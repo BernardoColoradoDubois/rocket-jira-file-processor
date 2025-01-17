@@ -3,6 +3,7 @@ import pandas as pd
 import boto3
 from src.lib.process import Process, ProcessHandler
 from src.lib.parsers.projects import project_parser
+from src.lib.connections.postgres import PostgresConnection
 
 
 class Projects(Process):
@@ -12,7 +13,7 @@ class Projects(Process):
 class ProjectsHandler(ProcessHandler):
   _name = 'projects'
   
-  def __init__(self,s3_client,postgres_connection):
+  def __init__(self,s3_client,postgres_connection:PostgresConnection):
     self.s3 = s3_client
     self.postgres_connection = postgres_connection
   
@@ -38,4 +39,4 @@ class ProjectsHandler(ProcessHandler):
       
     df = pd.DataFrame.from_dict(table)
     
-    self.postgres_connection.load_df(table_schema='rocket',table_name='jira_issues',df=df)
+    self.postgres_connection.load_df(table_schema='rocket',table_name='jira_projects',df=df)

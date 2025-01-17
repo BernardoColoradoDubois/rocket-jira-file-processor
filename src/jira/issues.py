@@ -3,6 +3,8 @@ import pandas as pd
 import boto3
 from src.lib.process import Process, ProcessHandler
 from src.lib.parsers.issues import issue_parser
+from src.lib.connections.postgres import PostgresConnection
+
 
 
 class Issues(Process):
@@ -12,7 +14,7 @@ class Issues(Process):
 class IssuesHandler(ProcessHandler):
   _name = 'issues'
   
-  def __init__(self,s3_client,postgres_connection):
+  def __init__(self,s3_client,postgres_connection:PostgresConnection):
     self.s3 = s3_client
     self.postgres_connection = postgres_connection
   
