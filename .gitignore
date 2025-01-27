@@ -7,3 +7,4 @@ lambda.zip
 **/__pycache__/
 files
 csv
+json
