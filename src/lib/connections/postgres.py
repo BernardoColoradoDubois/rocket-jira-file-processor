@@ -1,5 +1,7 @@
 # crea una clase que se conecte a postgres utilizando sqlalchemy y permita extraer dataframes de las tablas de la base de datos
 from sqlalchemy import create_engine
+from sqlalchemy import text
+
 import pandas as pd
 from src.lib.decorators import singleton
 
@@ -18,3 +20,8 @@ class PostgresConnection:
   def load_df(self,table_schema,table_name:str,df:pd.DataFrame):
     
     df.to_sql(table_name,self._engine, schema=table_schema, if_exists='replace', index=False)
+
+  def execute_sql_command(self, sql: str):
+
+    self._connection.execute(text(sql))
+ 
