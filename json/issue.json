@@ -1,6 +1,6 @@
 {
-  "_airbyte_raw_id": "87b3ab69-9c4d-4843-a018-f8063f75467f",
-  "_airbyte_extracted_at": 1731635757783,
+  "_airbyte_raw_id": "c966e99d-2e3d-4b47-83ef-73dcd9c2a353",
+  "_airbyte_extracted_at": 1731636026992,
   "_airbyte_generation_id": 1,
   "_airbyte_meta": {
     "changes": [],
@@ -8,16 +8,13 @@
   },
   "_airbyte_data": {
     "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,transitions,renderedFields",
-    "id": "11135",
-    "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/11135",
-    "key": "SCRUM-287",
+    "id": "17230",
+    "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/17230",
+    "key": "LA-19",
     "renderedFields": {
-      "statuscategorychangedate": "04/oct/24 10:01 AM",
+      "statuscategorychangedate": "Hoy 7:08 PM",
       "customfield_10223": "",
-      "timeestimate": "1 week",
-      "aggregatetimeoriginalestimate": "1 week, 1 day",
       "customfield_10325": "",
-      "aggregatetimeestimate": "1 week, 1 day",
       "customfield_10321": "",
       "customfield_10322": "",
       "customfield_10323": "",
@@ -27,578 +24,251 @@
         "total": 0,
         "worklogs": []
       },
-      "resolutiondate": "04/oct/24 10:01 AM",
-      "created": "30/sep/24 2:43 PM",
+      "created": "Hoy 7:08 PM",
       "customfield_10261": "",
       "customfield_10140": "",
       "customfield_10141": "",
       "customfield_10142": "",
       "customfield_10264": "",
-      "customfield_10024": "04/oct/24 10:01 AM",
+      "customfield_10017": "",
       "customfield_10259": "",
-      "customfield_10017": "dark_teal",
       "customfield_10139": "",
-      "updated": "04/oct/24 10:01 AM",
+      "updated": "Hoy 7:57 PM",
       "customfield_10090": [],
-      "timeoriginalestimate": "1 week",
       "customfield_10130": "",
       "description": "",
       "customfield_10131": "",
-      "customfield_10011": "",
       "customfield_10132": "",
-      "customfield_10013": "ghx-label-5",
       "customfield_10135": "",
       "customfield_10136": "",
-      "customfield_10015": "05/sep/24",
-      "timetracking": {
-        "originalEstimate": "1 semana",
-        "remainingEstimate": "1 semana",
-        "originalEstimateSeconds": 144000,
-        "remainingEstimateSeconds": 144000
-      },
+      "timetracking": {},
       "customfield_10127": "",
       "attachment": [],
       "environment": "",
-      "duedate": "18/sep/24",
       "comment": {
-        "comments": [
-          {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/11135/comment/10421",
-            "id": "10421",
-            "author": {
-              "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=63b43d7378aabbefa9d44410",
-              "accountId": "63b43d7378aabbefa9d44410",
-              "avatarUrls": {
-                "48x48": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "24x24": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "16x16": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "32x32": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png"
-              },
-              "displayName": "Luisa Yadhira Ramos Fraire",
-              "active": true,
-              "timeZone": "America/Mexico_City",
-              "accountType": "atlassian"
-            },
-            "body": {
-              "type": "doc",
-              "version": 1,
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Proyecto Cancelado"
-                    }
-                  ]
-                }
-              ]
-            },
-            "updateAuthor": {
-              "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=63b43d7378aabbefa9d44410",
-              "accountId": "63b43d7378aabbefa9d44410",
-              "avatarUrls": {
-                "48x48": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "24x24": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "16x16": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "32x32": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png"
-              },
-              "displayName": "Luisa Yadhira Ramos Fraire",
-              "active": true,
-              "timeZone": "America/Mexico_City",
-              "accountType": "atlassian"
-            },
-            "created": "04/oct/24 10:01 AM",
-            "updated": "04/oct/24 10:01 AM",
-            "jsdPublic": true
-          }
-        ],
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/11135/comment",
-        "maxResults": 1,
-        "total": 1,
+        "comments": [],
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/17230/comment",
+        "maxResults": 0,
+        "total": 0,
         "startAt": 0
       }
     },
-    "transitions": [
-      {
-        "id": "11",
-        "name": "Backlog",
-        "to": {
-          "self": "https://therocketcode-team.atlassian.net/rest/api/3/status/10033",
-          "description": "",
-          "iconUrl": "https://therocketcode-team.atlassian.net/",
-          "name": "Solicitadas",
-          "id": "10033",
-          "statusCategory": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/statuscategory/2",
-            "id": 2,
-            "key": "new",
-            "colorName": "blue-gray",
-            "name": "Por hacer"
-          }
-        },
-        "hasScreen": false,
-        "isGlobal": true,
-        "isInitial": false,
-        "isAvailable": true,
-        "isConditional": false,
-        "isLooped": false
-      },
-      {
-        "id": "21",
-        "name": "Selected for Development",
-        "to": {
-          "self": "https://therocketcode-team.atlassian.net/rest/api/3/status/10034",
-          "description": "",
-          "iconUrl": "https://therocketcode-team.atlassian.net/",
-          "name": "Definition",
-          "id": "10034",
-          "statusCategory": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/statuscategory/4",
-            "id": 4,
-            "key": "indeterminate",
-            "colorName": "yellow",
-            "name": "En curso"
-          }
-        },
-        "hasScreen": false,
-        "isGlobal": true,
-        "isInitial": false,
-        "isAvailable": true,
-        "isConditional": false,
-        "isLooped": false
-      },
-      {
-        "id": "31",
-        "name": "En curso",
-        "to": {
-          "self": "https://therocketcode-team.atlassian.net/rest/api/3/status/3",
-          "description": "This issue is being actively worked on at the moment by the assignee.",
-          "iconUrl": "https://therocketcode-team.atlassian.net/images/icons/statuses/inprogress.png",
-          "name": "Started | In Progress",
-          "id": "3",
-          "statusCategory": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/statuscategory/4",
-            "id": 4,
-            "key": "indeterminate",
-            "colorName": "yellow",
-            "name": "En curso"
-          }
-        },
-        "hasScreen": false,
-        "isGlobal": true,
-        "isInitial": false,
-        "isAvailable": true,
-        "isConditional": false,
-        "isLooped": false
-      },
-      {
-        "id": "41",
-        "name": "Listo",
-        "to": {
-          "self": "https://therocketcode-team.atlassian.net/rest/api/3/status/10035",
-          "description": "",
-          "iconUrl": "https://therocketcode-team.atlassian.net/",
-          "name": "Finalizada",
-          "id": "10035",
-          "statusCategory": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/statuscategory/3",
-            "id": 3,
-            "key": "done",
-            "colorName": "green",
-            "name": "Listo"
-          }
-        },
-        "hasScreen": false,
-        "isGlobal": true,
-        "isInitial": false,
-        "isAvailable": true,
-        "isConditional": false,
-        "isLooped": false
-      }
-    ],
+    "transitions": [],
     "changelog": {
       "startAt": 0,
-      "maxResults": 8,
-      "total": 8,
+      "maxResults": 3,
+      "total": 3,
       "histories": [
         {
-          "id": "13299",
+          "id": "53714",
           "author": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=63b43d7378aabbefa9d44410",
-            "accountId": "63b43d7378aabbefa9d44410",
+            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=6406382ac6e77744a1de9b7f",
+            "accountId": "6406382ac6e77744a1de9b7f",
             "avatarUrls": {
-              "48x48": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-              "24x24": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-              "16x16": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-              "32x32": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png"
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/32"
             },
-            "displayName": "Luisa Yadhira Ramos Fraire",
+            "displayName": "Lizbeth Trillo López",
             "active": true,
             "timeZone": "America/Mexico_City",
             "accountType": "atlassian"
           },
-          "created": "2024-10-04T10:01:19.114-0600",
+          "created": "2024-11-14T19:57:12.464-0600",
           "items": [
             {
-              "field": "resolution",
+              "field": "labels",
               "fieldtype": "jira",
-              "fieldId": "resolution",
+              "fieldId": "labels",
               "from": null,
-              "fromString": null,
-              "to": "10000",
-              "toString": "Done"
+              "fromString": "",
+              "to": null,
+              "toString": "RocketAssist"
+            }
+          ]
+        },
+        {
+          "id": "53571",
+          "author": {
+            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=6406382ac6e77744a1de9b7f",
+            "accountId": "6406382ac6e77744a1de9b7f",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/32"
             },
+            "displayName": "Lizbeth Trillo López",
+            "active": true,
+            "timeZone": "America/Mexico_City",
+            "accountType": "atlassian"
+          },
+          "created": "2024-11-14T19:08:52.020-0600",
+          "items": [
             {
-              "field": "status",
+              "field": "assignee",
               "fieldtype": "jira",
-              "fieldId": "status",
-              "from": "10033",
-              "fromString": "Backlog",
-              "to": "10035",
-              "toString": "Done"
-            }
-          ]
-        },
-        {
-          "id": "13003",
-          "author": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=712020%3A987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "accountId": "712020:987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "avatarUrls": {
-              "48x48": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "24x24": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "16x16": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "32x32": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png"
-            },
-            "displayName": "ROSA DEL CARMEN REYESHERNANDEZ",
-            "active": true,
-            "timeZone": "America/Mexico_City",
-            "accountType": "atlassian"
-          },
-          "created": "2024-09-30T14:47:57.781-0600",
-          "items": [
-            {
-              "field": "Epic Child",
-              "fieldtype": "custom",
+              "fieldId": "assignee",
               "from": null,
               "fromString": null,
-              "to": "11163",
-              "toString": "SCRUM-315"
+              "to": "63c6f1f11d7734b550c1985b",
+              "toString": "Angeles Arroyo Hernández",
+              "tmpFromAccountId": null,
+              "tmpToAccountId": "63c6f1f11d7734b550c1985b"
             }
           ]
         },
         {
-          "id": "13000",
+          "id": "53568",
           "author": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=712020%3A987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "accountId": "712020:987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
+            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=6406382ac6e77744a1de9b7f",
+            "accountId": "6406382ac6e77744a1de9b7f",
             "avatarUrls": {
-              "48x48": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "24x24": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "16x16": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "32x32": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png"
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/32"
             },
-            "displayName": "ROSA DEL CARMEN REYESHERNANDEZ",
+            "displayName": "Lizbeth Trillo López",
             "active": true,
             "timeZone": "America/Mexico_City",
             "accountType": "atlassian"
           },
-          "created": "2024-09-30T14:47:54.454-0600",
+          "created": "2024-11-14T19:08:42.860-0600",
           "items": [
             {
-              "field": "Epic Child",
-              "fieldtype": "custom",
-              "from": null,
-              "fromString": null,
-              "to": "11159",
-              "toString": "SCRUM-311"
-            }
-          ]
-        },
-        {
-          "id": "12988",
-          "author": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=712020%3A987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "accountId": "712020:987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "avatarUrls": {
-              "48x48": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "24x24": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "16x16": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "32x32": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png"
-            },
-            "displayName": "ROSA DEL CARMEN REYESHERNANDEZ",
-            "active": true,
-            "timeZone": "America/Mexico_City",
-            "accountType": "atlassian"
-          },
-          "created": "2024-09-30T14:47:36.614-0600",
-          "items": [
-            {
-              "field": "Epic Child",
-              "fieldtype": "custom",
-              "from": null,
-              "fromString": null,
-              "to": "11153",
-              "toString": "SCRUM-305"
-            }
-          ]
-        },
-        {
-          "id": "12984",
-          "author": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=712020%3A987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "accountId": "712020:987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "avatarUrls": {
-              "48x48": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "24x24": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "16x16": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "32x32": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png"
-            },
-            "displayName": "ROSA DEL CARMEN REYESHERNANDEZ",
-            "active": true,
-            "timeZone": "America/Mexico_City",
-            "accountType": "atlassian"
-          },
-          "created": "2024-09-30T14:47:30.475-0600",
-          "items": [
-            {
-              "field": "Epic Child",
-              "fieldtype": "custom",
-              "from": null,
-              "fromString": null,
-              "to": "11147",
-              "toString": "SCRUM-299"
-            }
-          ]
-        },
-        {
-          "id": "12980",
-          "author": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=712020%3A987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "accountId": "712020:987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "avatarUrls": {
-              "48x48": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "24x24": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "16x16": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "32x32": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png"
-            },
-            "displayName": "ROSA DEL CARMEN REYESHERNANDEZ",
-            "active": true,
-            "timeZone": "America/Mexico_City",
-            "accountType": "atlassian"
-          },
-          "created": "2024-09-30T14:47:26.299-0600",
-          "items": [
-            {
-              "field": "Epic Child",
-              "fieldtype": "custom",
-              "from": null,
-              "fromString": null,
-              "to": "11141",
-              "toString": "SCRUM-293"
-            }
-          ]
-        },
-        {
-          "id": "12976",
-          "author": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=712020%3A987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "accountId": "712020:987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "avatarUrls": {
-              "48x48": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "24x24": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "16x16": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "32x32": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png"
-            },
-            "displayName": "ROSA DEL CARMEN REYESHERNANDEZ",
-            "active": true,
-            "timeZone": "America/Mexico_City",
-            "accountType": "atlassian"
-          },
-          "created": "2024-09-30T14:47:18.062-0600",
-          "items": [
-            {
-              "field": "Epic Child",
-              "fieldtype": "custom",
-              "from": null,
-              "fromString": null,
-              "to": "11136",
-              "toString": "SCRUM-288"
-            }
-          ]
-        },
-        {
-          "id": "12867",
-          "author": {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=712020%3A987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "accountId": "712020:987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-            "avatarUrls": {
-              "48x48": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "24x24": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "16x16": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-              "32x32": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png"
-            },
-            "displayName": "ROSA DEL CARMEN REYESHERNANDEZ",
-            "active": true,
-            "timeZone": "America/Mexico_City",
-            "accountType": "atlassian"
-          },
-          "created": "2024-09-30T14:43:37.183-0600",
-          "items": [
-            {
-              "field": "Link",
+              "field": "IssueParentAssociation",
               "fieldtype": "jira",
               "from": null,
               "fromString": null,
-              "to": "SCRUM-94",
-              "toString": "This issue clones SCRUM-94"
+              "to": "17205",
+              "toString": "LA-1"
             }
           ]
         }
       ]
     },
     "fields": {
-      "statuscategorychangedate": "2024-10-04T10:01:19.114-0600",
-      "fixVersions": [],
-      "resolution": {
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/resolution/10000",
-        "id": "10000",
-        "description": "Se ha terminado el trabajo relacionado con esta incidencia.",
-        "name": "Listo"
+      "statuscategorychangedate": "2024-11-14T19:08:43.361-0600",
+      "parent": {
+        "id": "17205",
+        "key": "LA-1",
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/17205",
+        "fields": {
+          "summary": "Agente Reclutamiento",
+          "status": {
+            "self": "https://therocketcode-team.atlassian.net/rest/api/3/status/3",
+            "description": "This issue is being actively worked on at the moment by the assignee.",
+            "iconUrl": "https://therocketcode-team.atlassian.net/images/icons/statuses/inprogress.png",
+            "name": "Started | In Progress",
+            "id": "3",
+            "statusCategory": {
+              "self": "https://therocketcode-team.atlassian.net/rest/api/3/statuscategory/4",
+              "id": 4,
+              "key": "indeterminate",
+              "colorName": "yellow",
+              "name": "En curso"
+            }
+          },
+          "priority": {
+            "self": "https://therocketcode-team.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://therocketcode-team.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://therocketcode-team.atlassian.net/rest/api/3/issuetype/10000",
+            "id": "10000",
+            "description": "Una colección de errores, historias y tareas relacionadas.",
+            "iconUrl": "https://therocketcode-team.atlassian.net/images/icons/issuetypes/epic.svg",
+            "name": "Epic",
+            "subtask": false,
+            "hierarchyLevel": 1
+          }
+        }
       },
+      "fixVersions": [],
       "priority": {
         "self": "https://therocketcode-team.atlassian.net/rest/api/3/priority/3",
         "iconUrl": "https://therocketcode-team.atlassian.net/images/icons/priorities/medium.svg",
         "name": "Medium",
         "id": "3"
       },
-      "labels": [],
-      "timeestimate": 144000,
-      "aggregatetimeoriginalestimate": 172800,
-      "versions": [],
-      "issuelinks": [
-        {
-          "id": "10646",
-          "self": "https://therocketcode-team.atlassian.net/rest/api/3/issueLink/10646",
-          "type": {
-            "id": "10001",
-            "name": "Cloners",
-            "inward": "is cloned by",
-            "outward": "clones",
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/issueLinkType/10001"
-          },
-          "outwardIssue": {
-            "id": "10570",
-            "key": "SCRUM-94",
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/10570",
-            "fields": {
-              "summary": "Plantilla base no elminar / Rocket",
-              "status": {
-                "self": "https://therocketcode-team.atlassian.net/rest/api/3/status/10033",
-                "description": "",
-                "iconUrl": "https://therocketcode-team.atlassian.net/",
-                "name": "Solicitadas",
-                "id": "10033",
-                "statusCategory": {
-                  "self": "https://therocketcode-team.atlassian.net/rest/api/3/statuscategory/2",
-                  "id": 2,
-                  "key": "new",
-                  "colorName": "blue-gray",
-                  "name": "Por hacer"
-                }
-              },
-              "priority": {
-                "self": "https://therocketcode-team.atlassian.net/rest/api/3/priority/3",
-                "iconUrl": "https://therocketcode-team.atlassian.net/images/icons/priorities/medium.svg",
-                "name": "Medium",
-                "id": "3"
-              },
-              "issuetype": {
-                "self": "https://therocketcode-team.atlassian.net/rest/api/3/issuetype/10000",
-                "id": "10000",
-                "description": "Una colección de errores, historias y tareas relacionadas.",
-                "iconUrl": "https://therocketcode-team.atlassian.net/images/icons/issuetypes/epic.svg",
-                "name": "Epic",
-                "subtask": false,
-                "hierarchyLevel": 1
-              }
-            }
-          }
-        }
+      "labels": [
+        "RocketAssist"
       ],
+      "versions": [],
+      "issuelinks": [],
       "assignee": {
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=63b43d7378aabbefa9d44410",
-        "accountId": "63b43d7378aabbefa9d44410",
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=63c6f1f11d7734b550c1985b",
+        "accountId": "63c6f1f11d7734b550c1985b",
         "avatarUrls": {
-          "48x48": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-          "24x24": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-          "16x16": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-          "32x32": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png"
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/63c6f1f11d7734b550c1985b/9bff5001-d50a-4ee3-b6a3-955585eca37d/48",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/63c6f1f11d7734b550c1985b/9bff5001-d50a-4ee3-b6a3-955585eca37d/24",
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/63c6f1f11d7734b550c1985b/9bff5001-d50a-4ee3-b6a3-955585eca37d/16",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/63c6f1f11d7734b550c1985b/9bff5001-d50a-4ee3-b6a3-955585eca37d/32"
         },
-        "displayName": "Luisa Yadhira Ramos Fraire",
+        "displayName": "Angeles Arroyo Hernández",
         "active": true,
         "timeZone": "America/Mexico_City",
         "accountType": "atlassian"
       },
       "status": {
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/status/10035",
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/status/10033",
         "description": "",
         "iconUrl": "https://therocketcode-team.atlassian.net/",
-        "name": "Finalizada",
-        "id": "10035",
+        "name": "Solicitadas",
+        "id": "10033",
         "statusCategory": {
-          "self": "https://therocketcode-team.atlassian.net/rest/api/3/statuscategory/3",
-          "id": 3,
-          "key": "done",
-          "colorName": "green",
-          "name": "Listo"
+          "self": "https://therocketcode-team.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "Por hacer"
         }
       },
       "components": [],
       "customfield_10058": [],
-      "aggregatetimeestimate": 172800,
       "creator": {
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=712020%3A987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-        "accountId": "712020:987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=6406382ac6e77744a1de9b7f",
+        "accountId": "6406382ac6e77744a1de9b7f",
         "avatarUrls": {
-          "48x48": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-          "24x24": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-          "16x16": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-          "32x32": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png"
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/48",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/24",
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/16",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/32"
         },
-        "displayName": "ROSA DEL CARMEN REYESHERNANDEZ",
+        "displayName": "Lizbeth Trillo López",
         "active": true,
         "timeZone": "America/Mexico_City",
         "accountType": "atlassian"
       },
       "subtasks": [],
       "reporter": {
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=712020%3A987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
-        "accountId": "712020:987bf6d5-8f1c-46b1-8cf6-5832d60cdde9",
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=6406382ac6e77744a1de9b7f",
+        "accountId": "6406382ac6e77744a1de9b7f",
         "avatarUrls": {
-          "48x48": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-          "24x24": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-          "16x16": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png",
-          "32x32": "https://secure.gravatar.com/avatar/0c5cb2e55ee57e435d345b51f3acf7f6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRR-2.png"
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/48",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/24",
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/16",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6406382ac6e77744a1de9b7f/9f6bbe0c-febb-47a0-9795-ef7a831989f7/32"
         },
-        "displayName": "ROSA DEL CARMEN REYESHERNANDEZ",
+        "displayName": "Lizbeth Trillo López",
         "active": true,
         "timeZone": "America/Mexico_City",
         "accountType": "atlassian"
       },
       "aggregateprogress": {
         "progress": 0,
-        "total": 172800,
-        "percent": 0
+        "total": 0
       },
       "progress": {
         "progress": 0,
-        "total": 144000,
-        "percent": 0
+        "total": 0
       },
       "votes": {
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/SCRUM-287/votes",
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/LA-19/votes",
         "votes": 0,
         "hasVoted": false
       },
@@ -609,26 +279,27 @@
         "worklogs": []
       },
       "issuetype": {
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issuetype/10000",
-        "id": "10000",
-        "description": "Una colección de errores, historias y tareas relacionadas.",
-        "iconUrl": "https://therocketcode-team.atlassian.net/images/icons/issuetypes/epic.svg",
-        "name": "Epic",
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issuetype/10034",
+        "id": "10034",
+        "description": "Un trabajo pequeño e independiente.",
+        "iconUrl": "https://therocketcode-team.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "name": "Tarea",
         "subtask": false,
-        "hierarchyLevel": 1
+        "avatarId": 10318,
+        "hierarchyLevel": 0
       },
       "project": {
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/project/10166",
-        "id": "10166",
-        "key": "SCRUM",
-        "name": "Arranque de proyectos",
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/project/11419",
+        "id": "11419",
+        "key": "LA",
+        "name": "Laboratorio Ai",
         "projectTypeKey": "software",
         "simplified": false,
         "avatarUrls": {
-          "48x48": "https://therocketcode-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10683",
-          "24x24": "https://therocketcode-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10683?size=small",
-          "16x16": "https://therocketcode-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10683?size=xsmall",
-          "32x32": "https://therocketcode-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10683?size=medium"
+          "48x48": "https://therocketcode-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10420",
+          "24x24": "https://therocketcode-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10420?size=small",
+          "16x16": "https://therocketcode-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10420?size=xsmall",
+          "32x32": "https://therocketcode-team.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10420?size=medium"
         },
         "projectCategory": {
           "self": "https://therocketcode-team.atlassian.net/rest/api/3/projectCategory/10000",
@@ -637,109 +308,45 @@
           "name": "Rocket Code"
         }
       },
-      "resolutiondate": "2024-10-04T10:01:19.100-0600",
-      "workratio": 0,
+      "workratio": -1,
+      "watches": {
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/LA-19/watchers",
+        "watchCount": 1,
+        "isWatching": false
+      },
       "issuerestriction": {
         "issuerestrictions": {},
         "shouldDisplay": false
       },
-      "watches": {
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/SCRUM-287/watchers",
-        "watchCount": 2,
-        "isWatching": false
-      },
-      "created": "2024-09-30T14:43:36.511-0600",
-      "customfield_10024": "2024-10-04T10:01:45.785-0600",
-      "customfield_10025": "10033_*:*_1_*:*_328662603_*|*_10035_*:*_1_*:*_0",
-      "customfield_10017": "dark_teal",
+      "created": "2024-11-14T19:08:42.825-0600",
       "customfield_10018": {
         "hasEpicLinkFieldDependency": false,
-        "showField": true
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "EPIC_LINK_SHOULD_BE_USED",
+          "message": "Para establecer un epic como principal, usa en su lugar el enlace de epic."
+        }
       },
-      "customfield_10019": "0|i0039z:",
-      "updated": "2024-10-04T10:01:45.938-0600",
+      "customfield_10019": "0|i016kw:",
+      "updated": "2024-11-14T19:57:12.464-0600",
       "customfield_10090": [],
-      "timeoriginalestimate": 144000,
-      "customfield_10012": {
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/customFieldOption/10016",
-        "value": "To Do",
-        "id": "10016"
-      },
-      "customfield_10013": "ghx-label-5",
-      "customfield_10015": "2024-09-05",
-      "timetracking": {
-        "originalEstimate": "1w",
-        "remainingEstimate": "1w",
-        "originalEstimateSeconds": 144000,
-        "remainingEstimateSeconds": 144000
-      },
+      "customfield_10014": "LA-1",
+      "timetracking": {},
       "attachment": [],
-      "summary": "Copaprose Soporte",
+      "summary": "Agendar calendar FH",
       "customfield_10000": "{}",
       "customfield_10002": [],
-      "duedate": "2024-09-18",
       "comment": {
-        "comments": [
-          {
-            "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/11135/comment/10421",
-            "id": "10421",
-            "author": {
-              "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=63b43d7378aabbefa9d44410",
-              "accountId": "63b43d7378aabbefa9d44410",
-              "avatarUrls": {
-                "48x48": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "24x24": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "16x16": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "32x32": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png"
-              },
-              "displayName": "Luisa Yadhira Ramos Fraire",
-              "active": true,
-              "timeZone": "America/Mexico_City",
-              "accountType": "atlassian"
-            },
-            "body": {
-              "type": "doc",
-              "version": 1,
-              "content": [
-                {
-                  "type": "paragraph",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Proyecto Cancelado"
-                    }
-                  ]
-                }
-              ]
-            },
-            "updateAuthor": {
-              "self": "https://therocketcode-team.atlassian.net/rest/api/3/user?accountId=63b43d7378aabbefa9d44410",
-              "accountId": "63b43d7378aabbefa9d44410",
-              "avatarUrls": {
-                "48x48": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "24x24": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "16x16": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png",
-                "32x32": "https://secure.gravatar.com/avatar/3831e5004a6fe3a984a62906e026586b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLF-1.png"
-              },
-              "displayName": "Luisa Yadhira Ramos Fraire",
-              "active": true,
-              "timeZone": "America/Mexico_City",
-              "accountType": "atlassian"
-            },
-            "created": "2024-10-04T10:01:45.785-0600",
-            "updated": "2024-10-04T10:01:45.785-0600",
-            "jsdPublic": true
-          }
-        ],
-        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/11135/comment",
-        "maxResults": 1,
-        "total": 1,
+        "comments": [],
+        "self": "https://therocketcode-team.atlassian.net/rest/api/3/issue/17230/comment",
+        "maxResults": 0,
+        "total": 0,
         "startAt": 0
       }
     },
-    "projectId": "10166",
-    "projectKey": "SCRUM",
-    "created": "2024-09-30T14:43:36.511-0600",
-    "updated": "2024-10-04T10:01:45.938-0600"
+    "projectId": "11419",
+    "projectKey": "LA",
+    "created": "2024-11-14T19:08:42.825-0600",
+    "updated": "2024-11-14T19:57:12.464-0600"
   }
 }
