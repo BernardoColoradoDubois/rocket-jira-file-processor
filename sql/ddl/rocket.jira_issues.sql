@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS rocket.jira_issues;
-CREATE TABLE rocket.jira_issues ( 
+DROP TABLE IF EXISTS rocket.stg_jira_issues;
+CREATE TABLE rocket.stg_jira_issues ( 
     --tarea
     issue_id INT PRIMARY KEY, 
     issue_key TEXT NOT NULL, 
@@ -22,18 +22,20 @@ CREATE TABLE rocket.jira_issues (
     -- textos
     summary TEXT, 
     description TEXT, 
+
     -- prioridad
     priority_id INT, 
-    priority_name TEXT,
-
-    --tiempos
-    time_estimate INT,
-    due_date TIMESTAMP WITH TIME ZONE,
-    resolution_date TIMESTAMP WITH TIME ZONE,
+    priority_name TEXT, 
 
     -- estado
     status_id INT,
     status_name TEXT, 
+    
+    --tiempos
+    time_estimate INT, 
+    due_date TIMESTAMP WITH TIME ZONE, 
+    resolution_date TIMESTAMP WITH TIME ZONE, 
+
     -- marcas de tiempo
     created_date TIMESTAMP WITH TIME ZONE, 
     updated_date TIMESTAMP WITH TIME ZONE 

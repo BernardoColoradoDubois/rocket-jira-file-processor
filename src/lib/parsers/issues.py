@@ -33,18 +33,18 @@ def issue_parser(data:dict)->dict:
       'summary': data['_airbyte_data']['fields']['summary'],
       'description': json.dumps(data['_airbyte_data']['fields'].get('description', {})), 
       
-      #tiempos
-      'time_estimate': data['_airbyte_data']['fields'].get('timeestimate',0),
-      'duedate' : data['_airbyte_data']['fields'].get('duedate', None),
-      'resolution_date': data['_airbyte_data']['fields'].get('resolutiondate', None),
-
+      #prioridades
+      'priority_id': data['_airbyte_data']['fields']['priority'].get('id',None),
+      'priority_name': data['_airbyte_data']['fields']['priority'].get('name',None),
+      
       #estados
       'status_id': data['_airbyte_data']['fields']['status']['id'],
       'status_name': data['_airbyte_data']['fields']['status']['name'],
       
-      #prioridades
-      'priority_id': data['_airbyte_data']['fields']['priority'].get('id',None),
-      'priority_name': data['_airbyte_data']['fields']['priority'].get('name',None),
+      #tiempos
+      'time_estimate': data['_airbyte_data']['fields'].get('timeestimate',0),
+      'duedate' : data['_airbyte_data']['fields'].get('duedate', None),
+      'resolution_date': data['_airbyte_data']['fields'].get('resolutiondate', None),
 
       #fechas de creacion y actualizacion
       'created_date': data['_airbyte_data']['fields']['created'],
