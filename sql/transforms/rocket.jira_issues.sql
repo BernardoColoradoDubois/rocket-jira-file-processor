@@ -1,5 +1,6 @@
 DROP TABLE IF EXISTS rocket.jira_issues;
-CREATE TABLE IF NOT EXISTS rocket.jira_issues SELECT 
+CREATE TABLE IF NOT EXISTS rocket.jira_issues 
+SELECT 
 	issue_id, 
 	issue_key, 
 	project_id, 
